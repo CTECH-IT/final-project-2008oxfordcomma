@@ -1,13 +1,15 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7318253&assignment_repo_type=AssignmentRepo)
-# JS-Template
-This is a repository you can use to start your HTML/CSS/JavaScript project.
+Dre Harm
 
-I have included: index.html, styles.css, main.js, and bs.bat - the batch file that will start browser-sync automatically
+Goal: Create a newletter signup website
 
-There is also a .gitignore which will cause GitHub to ignore a bunch of files that shouldn't be stored (like temp files, log files, node libraries, etc)
+TODO:
+- Regularly send out an email
+- Have a website that you can sign up for the newsletter
+- Be able to unsubscribe from the newsletter
+- Use the MailChimp Service in order to help send out the newsletter
+- Learn how to use and implement Express.js to help process the post requests 
 
-Make sure you edit *this file* (REAMDE.md), delete all this information and put in your name and a short description of this project.
-
-Then, edit index.html and add your name in the author meta field. 
-
-Finally, commit and push to make sure it's working for you.
+Changelog
+V0.1
+- Added nodemon and express packages
+- Began implementation of express
