@@ -1,0 +1,23 @@
+{
+  "name": "final-project-2008oxfordcomma",
+  "version": "1.0.0",
+  "description": "[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7318253&assignment_repo_type=AssignmentRepo)\r # JS-Template\r This is a repository you can use to start your HTML/CSS/JavaScript project.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://2008oxfordcomma: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@github.com/CTECH-IT/final-project-2008oxfordcomma.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CTECH-IT/final-project-2008oxfordcomma/issues"
+  },
+  "homepage": "https://github.com/CTECH-IT/final-project-2008oxfordcomma#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
