@@ -18,6 +18,11 @@
   },
   "homepage": "https://github.com/CTECH-IT/final-project-2008oxfordcomma#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
   }
 }
