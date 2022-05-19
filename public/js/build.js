@@ -25,7 +25,7 @@ eval("var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!\n * jQ
   \************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\r\n\r\n$('form').submit(function(event) {\r\n    event.preventDefault();\r\n    console.log(\"Event Called.\");\r\n\r\n    $.ajax({\r\n        url: '/',\r\n        type: 'POST', // type of request we are making to the server\r\n        data: { // hard coded for now\r\n            email: '2008oxfordcomma@gmail.com'\r\n        },\r\n        success: function(response) {\r\n            console.log(response);\r\n        }\r\n    });\r\n});\r\n\r\n\n\n//# sourceURL=webpack://final-project-2008oxfordcomma/./src/scripts.js?");
+eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\r\n\r\n\r\n$('form').submit(function(event) {\r\n    var userEmail = $('#email').val();\r\n    \r\n    event.preventDefault();\r\n    console.log(\"Event Called.\");\r\n\r\n    $.ajax({\r\n        url: '/',\r\n        type: 'POST', // type of request we are making to the server\r\n        data: { \r\n            email: userEmail\r\n        },\r\n        success: function(response) {\r\n            console.log(response);\r\n        }\r\n    });\r\n});\r\n\r\n\n\n//# sourceURL=webpack://final-project-2008oxfordcomma/./src/scripts.js?");
 
 /***/ })
 
