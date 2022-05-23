@@ -5,9 +5,10 @@
 **Dre Harm**
 
 *Requirements*:
+
 - Regularly send out an email
-- Have a website that you can sign up for the newsletter
 - Be able to unsubscribe from the newsletter
+- Have a website that you can sign up for the newsletter
 - Use the MailChimp Service in order to help send out the newsletter
 - Learn how to use and implement Express.js to help process the post requests
 
@@ -30,6 +31,10 @@ V0.3
 - Added ID's to email and submit area in order to get them in js
 - Un-hard coded the users email to return real user input
 
+V0.4
+- MailChimp API is now linked with the website
+- Email Address now uploads to MailChimp
+- Added Request Package
 ###### *Just to keep things straight*
 ###### User will send email to our server via a post request -> our server will relay the email to MailChimps servers -> MailChimp processes the request -> sends back a response -> Relay a message back to the user letting them know whether or not their email was successfully added to our list
 
