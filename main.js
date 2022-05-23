@@ -8,10 +8,10 @@ const bodyParser = require('body-parser');
 */
 app.use(express.static(__dirname + '/public'));
 
-// the default packet is urlencoded so this must be included
+// The default packet is urlencoded so this must be included
 app.use(bodyParser.urlencoded({ extended: false }))
 
-//  however to send to mailchimp you must use a json package so this is also necessary
+// However to send to MailChimp you must use a json package so this is also necessary
 app.use(bodyParser.json())
 
 app.listen(3000, function() {
